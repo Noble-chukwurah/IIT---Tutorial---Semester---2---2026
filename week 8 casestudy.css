@@ -1,0 +1,40 @@
+/* External CSS: base theme and reusable classes */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #f0f4f8;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #2b6cb0;
+}
+
+/* Link styles */
+a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Box container */
+.box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Note class for highlighted reminders */
+.note {
+  background: #f7fafc;
+  padding: 12px;
+  border-radius: 6px;
+}
